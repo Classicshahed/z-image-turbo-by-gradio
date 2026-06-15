@@ -115,8 +115,8 @@ with gr.Blocks(theme=theme, title="Z-Image GGUF Interface") as demo:
                     t2i_neg_prompt = gr.Textbox(label="Negative Prompt", lines=2, placeholder="ugly, blurry, low quality")
                     
                     with gr.Row():
-                        t2i_width = gr.Slider(256, 2048, value=1024, step=64, label="Width")
-                        t2i_height = gr.Slider(256, 2048, value=1024, step=64, label="Height")
+                        t2i_width = gr.Slider(256, 2048, value=576, step=64, label="Width")
+                        t2i_height = gr.Slider(256, 2048, value=576, step=64, label="Height")
                     
                     with gr.Row():
                         t2i_steps = gr.Slider(1, 100, value=8, step=1, label="Sampling Steps")
