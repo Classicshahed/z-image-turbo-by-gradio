@@ -1,0 +1,5 @@
+gradio>=4.0.0
+stable-diffusion-cpp-python
+llama-cpp-python
+Pillow
+numpy
